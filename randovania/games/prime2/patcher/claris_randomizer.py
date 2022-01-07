@@ -6,6 +6,7 @@ from typing import Callable, List, Union
 
 from randovania import get_data_path
 from randovania.games.prime2.patcher import csharp_subprocess
+from randovania.interface_common import persistence
 from randovania.patching.patchers.exceptions import ExportFailure
 from randovania.games.prime2.patcher import echoes_dol_patcher
 from randovania.interface_common.game_workdir import validate_game_files_path
@@ -46,7 +47,7 @@ def _get_randomizer_path() -> Path:
 
 
 def _get_custom_data_path() -> Path:
-    return _get_randomizer_folder().joinpath("CustomRandomizerData.json")
+    return persistence.local_data_dir().joinpath("CustomEchoesRandomizerData.json")
 
 
 def _get_menu_mod_path() -> Path:
@@ -178,6 +179,7 @@ def apply_patcher_file(game_root: Path,
 
     with _get_custom_data_path().open("w") as data_file:
         json.dump(randomizer_data, data_file, indent=4)
+
     _run_with_args(_base_args(game_root),
                    json.dumps(patcher_data),
                    "Randomized!",
