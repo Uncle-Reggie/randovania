@@ -86,6 +86,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fixed: Counting normal damage reductions from suits twice.
 
+#### Logic Database
+
+- Changed: The NSJ Slope Jump to Tower Chamber in Tower of Light has been reduced from Advanced to Intermediate.
+
 ### Metroid Prime 2: Echoes
 
 - Added: One new Joke Hint refering to Raven Beak added to the pool

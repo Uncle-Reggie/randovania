@@ -969,7 +969,7 @@ Extra - aabb: [-174.46513, -93.0821, 4.8231506, -114.339874, 2.7153168, 129.3404
                           Boost Ball and Wall Boost (Expert)
           Space Jump Boots and Slope Jump (Beginner) and Gravityless Underwater Movement (Beginner)
           # https://www.youtube.com/watch?v=YMk1EDV95h0
-          No Gravity Suit and Slope Jump (Advanced) and Gravityless Underwater Movement (Intermediate) and Enabled Allow Dangerous Gravity Suit Logic
+          No Gravity Suit and Slope Jump (Intermediate) and Gravityless Underwater Movement (Intermediate) and Enabled Allow Dangerous Gravity Suit Logic
   > Pickup (Wavebuster)
       Any of the following:
           All of the following:

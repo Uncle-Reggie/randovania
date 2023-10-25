@@ -6172,7 +6172,7 @@
                                                     "data": {
                                                         "type": "tricks",
                                                         "name": "SJump",
-                                                        "amount": 3,
+                                                        "amount": 2,
                                                         "negate": false
                                                     }
                                                 },
